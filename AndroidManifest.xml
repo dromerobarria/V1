@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geon.InspectoresAndroid"
+    android:versionCode="27"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.geon.InspectoresAndroid.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.geon.InspectoresAndroid.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hsse"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.geon.InspectoresAndroid.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.geon.login.login"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.geon.InspectoresAndroid.MainActivityAlumno"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.geon.InspectoresAndroid.MainActivityPrincipal"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.geon.InspectoresAndroid.MainActivityDocente"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.geon.InspectoresAndroid.MainActivityCurso"
+            android:label="@string/app_name" >
+        </activity>
+        
+       
+        
+        <receiver
+            android:name="com.geon.services.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.geon.InspectoresAndroid" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.geon.services.GCMIntentService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        
+    </application>
+
+</manifest>

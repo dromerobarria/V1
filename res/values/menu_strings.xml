@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="al_inicio">Inicio</string>
+    <string name="al_atrasos">Atrasos</string>
+    <string name="al_anotacion">Anotaciones</string>
+    <string name="al_horario">Horario</string>
+    <string name="al_ficha">Ficha</string>
+    
+</resources>

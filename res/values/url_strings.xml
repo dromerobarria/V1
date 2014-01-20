@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="url_login_externo">https://www.geon.cl/inspectores/login.php</string>
+    <string name="url_alumnos_externo">https://www.geon.cl/inspectores/alumnos.php</string>
+    <string name="url_docentes_externo">https://www.geon.cl/inspectores/docentes.php</string>
+    <string name="url_cursos_externo">https://www.geon.cl/inspectores/cursos.php</string>
+    <string name="url_anotaciones_internas">https://www.geon.cl/inspectores/al_anotaciones_internas.php</string>    
+    <string name="url_atrasos">https://www.geon.cl/inspectores/al_atrasos.php</string>    
+     <string name="url_anotaciones_libro">https://www.geon.cl/inspectores/al_anotaciones.php</string>
+      <string name="url_apoderado_alumno">https://www.geon.cl/inspectores/apoderado_alumno.php</string>     
+      <string name="url_anotaciones_internas_docente">https://www.geon.cl/inspectores/do_anotaciones_internas.php</string>
+      <string name="url_detalle_docente">https://www.geon.cl/inspectores/do_detalles.php</string>
+       <string name="url_mensajes">https://www.geon.cl/appmovil/email.php</string>
+        <string name="url_xmpp">xmpp.geon.cl</string>
+</resources>
+ 

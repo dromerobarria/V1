@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04" >
+
+        <ImageView
+            android:id="@+id/avatar_alumno"
+            android:layout_width="113dp"
+            android:layout_height="128dp"
+            android:paddingBottom="30dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="129dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/nombre_alumno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/nombre_curso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="30dp"
+                android:paddingLeft="20dp"
+                android:text="TextView" />
+            
+            
+
+  
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="117dp"
+            android:layout_gravity="right" >
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/pen" />
+
+        </LinearLayout>
+       
+    </LinearLayout>
+
+</LinearLayout>

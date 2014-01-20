@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.69"
+        android:columnCount="2"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:rowCount="2" >
+
+        <TextView
+            android:id="@+id/fecha_anotacion_detalle_libro"
+            android:layout_width="84dp"
+            android:layout_height="92dp"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="0"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/mensaje_anotacion_detalle_libro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginRight="100dp"
+            android:layout_row="0"
+            android:gravity="fill_horizontal"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="TextView"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/registrador_anotacion_detalle_libro"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="100dp"
+            android:layout_row="1"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="50dp"
+            android:text="TextView" />
+
+    </GridLayout>
+
+</LinearLayout>

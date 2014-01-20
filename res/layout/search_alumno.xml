@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/textoblanco"
+    >
+
+    <!-- <com.handmark.pulltorefresh.library.PullToRefreshListView
+    	xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    	android:id="@+id/listado_alumno2"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#111"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        ptr:ptrAnimationStyle="flip"
+    
+    /> -->
+
+     <!-- Editext for Search -->
+      <com.geon.library.ClearableEditText
+    	android:id="@+id/inputSearch"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="@string/buscar_alumno"
+    	android:inputType="textVisiblePassword"
+    	android:drawableRight="@drawable/cross"
+    	/>
+      <ListView
+        android:id="@+id/listado_alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       
+    </ListView>
+    
+      
+</LinearLayout>

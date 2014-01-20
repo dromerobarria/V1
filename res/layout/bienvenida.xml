@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/textoblanco"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="271dp"
+        android:layout_height="700dp"
+        android:src="@drawable/hsse"
+        android:layout_gravity="center_horizontal"
+        
+         />
+
+    <Button
+        android:id="@+id/btn_session"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/barramenu"
+        android:height="60dp"
+        android:text="INGRESAR"
+        android:textColor="@color/textoblanco"
+        android:width="200dp" />
+
+    <TextView
+        android:id="@+id/text_session"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Inicia sessión con tu cuenta de GEON"
+        android:textSize="15sp" />
+
+</LinearLayout>
